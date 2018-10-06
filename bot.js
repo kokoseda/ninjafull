@@ -347,7 +347,7 @@ client.on('guildDelete', guild => { // Leaked by [ @Fr3on Gamer#9338 ]
 var message = "zg";
          const embed = new Discord.RichEmbed()
      .setColor("GOLD")
-     .setTitle('MooN Bot Link Click Here .!')
+     .setTitle('Ninja Bot Link Click Here .!')
      .setURL('https://discordapp.com/api/oauth2/authorize?client_id=494866657211318273&permissions=8&scope=bot')
   .setDescription(`**
   Server Kicked MooN Bot :cry:
@@ -638,7 +638,7 @@ if(!message.guild.member(client.user).hasPermission("MANAGE_ROLES")) return mess
 });
 
 
-client.on('message', message => { // Leaked by [ @M3a4x ]
+client.on('message', message => { // Leaked by [ @Fr3on Gamer#9338 ]
    if(message.content.startsWith(prefix + "invites")) {
     message.guild.fetchInvites().then(invs => {
       var user = message.mentions.users.first() || message.author
