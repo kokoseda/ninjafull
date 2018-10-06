@@ -337,7 +337,7 @@ var message = "zg";
      .setTitle('Ninja Bot Link Click Here .!')
      .setURL('https://discordapp.com/api/oauth2/authorize?client_id=494866657211318273&permissions=8&scope=bot')
   .setDescription(`**
-  New Server Add MooN Bot ✅
+  New Server Add Ninja Bot ✅
 اسم السيرفر: ${guild.name}
 صاحب السيرفر: ${guild.owner}**`);
 client.channels.get("465340887279468564").sendEmbed(embed)
@@ -350,7 +350,7 @@ var message = "zg";
      .setTitle('Ninja Bot Link Click Here .!')
      .setURL('https://discordapp.com/api/oauth2/authorize?client_id=494866657211318273&permissions=8&scope=bot')
   .setDescription(`**
-  Server Kicked MooN Bot :cry:
+  Server Kicked Ninja Bot :cry:
 اسم السيرفر: ${guild.name}
 صاحب السيرفر: ${guild.owner}**`);
 client.channels.get("465340887279468564").sendEmbed(embed)
@@ -413,7 +413,7 @@ var mentionned = message.mentions.members.first();
 .addField(': دخولك لديسكورد قبل', `${moment(heg.createdTimestamp).format('YYYY/M/D HH:mm:ss')} **\n** \`${moment(heg.createdTimestamp).fromNow()}\`` ,true)
 .addField(': انضمامك لسيرفر قبل', `${moment(h.joinedAt).format('YYYY/M/D HH:mm:ss')} \n \`${moment(h.joinedAt).fromNow()}\``, true)
 .addField(': عدد الدعوات', inviteCount,false)
-.setFooter("MooN Bot.")
+.setFooter("Ninja Bot.")
     message.channel.sendEmbed(id);
 })
 }
@@ -807,7 +807,7 @@ vv.on("collect", r => {
  .setTitle(`Welcome To ${msg.guild.name}`)
            .setFooter(`- Requested By: ${msg.author.tag}`,msg.author.avatarURL)
   .setURL('https://discordapp.com/api/oauth2/authorize?client_id=494866657211318273&permissions=8&scope=bot')
-.setDescription(`**' MooN Bot Discord.\n$help - لرؤية الأوامر :comet: \n$inv - لدعوة البوت :wine_glass: \n معلومات عن البوت :thinking: \n بوت ديسكورت متكامل :soccer: :microphone: :earth_americas: \nيوجد داخل البوت خاصية منع التهكير مجانا وبسهوله تامة :scream: \nصيانة دورية :stopwatch: :wrench: \n 24 ساعة :point_up:
+.setDescription(`**' Ninja Bot Discord.\n$help - لرؤية الأوامر :comet: \n$inv - لدعوة البوت :wine_glass: \n معلومات عن البوت :thinking: \n بوت ديسكورت متكامل :soccer: :microphone: :earth_americas: \nيوجد داخل البوت خاصية منع التهكير مجانا وبسهوله تامة :scream: \nصيانة دورية :stopwatch: :wrench: \n 24 ساعة :point_up:
  \nاضافات يومية :link: \n الدعم الفني للمساعدةة : https://discord.gg/QfB8p2S  :rose:  \n وشكرا لكم :lizard: **`)
 
 
