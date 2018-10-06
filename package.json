@@ -26,6 +26,7 @@
     "weather-js": "^2.0.0",
     "weather.js": "^0.1.0",
     "youtube-info": "^1.2.0",
-    "ytdl-core": "^0.20.4"
+    "ytdl-core": "^0.20.4",
+    "ms": "^2.1.1"
   }
 }
